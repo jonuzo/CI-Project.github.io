@@ -528,9 +528,9 @@ div.movie-container{
   justify-content:center;
   align-items: center;
   display:flex;
-  width:200px;
+  width:100px;
   flex-direction:column;
-  height:250px;
+  height:150px;
   background-color:#00ADB5;
   border-radius:5px;
 
