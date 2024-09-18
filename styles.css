@@ -631,3 +631,34 @@ table,th,td,tr{
   color: #EEEEEE;
 
 }
+
+/* Container that holds all columns */
+#main {
+    display: flex;
+}
+
+/* Default style for all columns */
+.column {
+    padding: 20px;
+    background-color: lightgray;
+    border: 1px solid #ccc;
+}
+
+/* Resize the left column */
+#left {
+    width: 20%; /* 20% of the width of the main container */
+    background-color: lightblue; /* Just for visibility */
+}
+
+/* Resize the center column */
+#center {
+    width: 50%; /* 50% of the width of the main container */
+    background-color: lightgreen; /* Just for visibility */
+}
+
+/* Resize the right column */
+#right {
+    width: 30%; /* 30% of the width of the main container */
+    background-color: lightcoral; /* Just for visibility */
+}
+
