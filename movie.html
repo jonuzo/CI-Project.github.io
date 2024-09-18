@@ -1,14 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+  
 <head>
   <title>Rate a Film</title>
   <link rel="stylesheet" type="text/css" href="stars.css">
   <link rel="stylesheet" href="styles.css">  
 </head>
+
+
+  
 <body>
   <header>
     <h1 id="headertext">The Casual Reviews</h1>
   </header>
+
+
+  
   <nav>
     <ul>
       <a href="about.html" id="about">About Us</a>
@@ -19,18 +27,24 @@
     <ul>
       <a href="loginAuth.html" id="register">Accounts</a>
     </ul>
+    <ul>
+      <a href="watchlist.html" id="watchlist">Watchlist</a>
+    </ul>
   </nav>
+
+  
   <div class="Movies">
-    <h1 id="movietitle"></h1>
-    <div id="specific-data"></div>
+        <h1 id="movietitle"></h1>
+        <div id="specific-data"></div>
   </div>
+  
   <div id="recommendations"></div>
   <div id="check_em_out"></div>
-  <h1 id="postareview">Post a review</h1>
 
+  
+  <h1 id="postareview">Post a review</h1>
   <form method="POST" action="https://script.google.com/macros/s/AKfycbzw6RP8AFIeyjjoS9V-1lK0jHnrpzDlQChjnI2NW0LHsvpHL6tLJLSNM6YkKSbeagySKA/exec">
     
-
     <p id="filmtext">
       <label for="Film">Film:</label>
       <input name="Film" type="text" placeholder="Film" required>
@@ -68,7 +82,7 @@
     </p>  
   </form>
   
-  <h1 id="reccmoviestext">Check out these movies!</h1>
+  <h1 id="reccmoviestext">Check out more movies below!</h1>
   <style>
     #recommendations {
       display: flex;
