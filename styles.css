@@ -646,19 +646,19 @@ table,th,td,tr{
 
 /* Resize the left column */
 #left {
-    width: 10%; /* 20% of the width of the main container */
+    width: 20%; /* 20% of the width of the main container */
     background-color: lightblue; /* Just for visibility */
 }
 
 /* Resize the center column */
 #center {
-    width: 25%; /* 50% of the width of the main container */
+    width: 50%; /* 50% of the width of the main container */
     background-color: lightgreen; /* Just for visibility */
 }
 
 /* Resize the right column */
 #right {
-    width: 15%; /* 30% of the width of the main container */
+    width: 30%; /* 30% of the width of the main container */
     background-color: lightcoral; /* Just for visibility */
 }
 
