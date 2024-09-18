@@ -1,6 +1,6 @@
 html, body {
     background-color: #393E46;
-    overflow: auto;  /* or remove overflow: hidden if it exists */
+    overflow: auto;  /* remove overflow: hidden if it exists */
     height: 100%;    /* Ensures full page height */
     padding:0px;
     position:relative;
